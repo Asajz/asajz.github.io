@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e51fc4-4858-4639-9ba2-c62d3f1fa883" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webResources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modpack.html" afterPath="$PROJECT_DIR$/modpack.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="asajz.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="modpack.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="modpack.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modpack.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="47" selection-start="1053" selection-end="1053" vertical-scroll-proportion="-17.307692" vertical-offset="0" max-vertical-offset="750">
+            <state line="7" column="45" selection-start="235" selection-end="235" vertical-scroll-proportion="0.17298187" vertical-offset="0" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="20" selection-start="572" selection-end="572" vertical-scroll-proportion="0.1724138" vertical-offset="150" max-vertical-offset="870">
+            <state line="38" column="31" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-12.875" vertical-offset="261" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -60,8 +58,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/community.html" />
-        <option value="$PROJECT_DIR$/modpack.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/modpack.html" />
       </list>
     </option>
   </component>
@@ -244,21 +242,21 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/Asajz.png">
+    <entry file="file://$PROJECT_DIR$/img/asajz.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modpack.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="47" selection-start="1053" selection-end="1053" vertical-scroll-proportion="-17.307692" vertical-offset="0" max-vertical-offset="750">
+        <state line="38" column="31" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-12.875" vertical-offset="261" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/modpack.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="572" selection-end="572" vertical-scroll-proportion="0.1724138" vertical-offset="150" max-vertical-offset="870">
+        <state line="7" column="45" selection-start="235" selection-end="235" vertical-scroll-proportion="0.17298187" vertical-offset="0" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
