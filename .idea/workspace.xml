@@ -26,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="modpack.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="modpack.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modpack.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="24" selection-start="717" selection-end="717" vertical-scroll-proportion="0.4855196" vertical-offset="45" max-vertical-offset="810">
+            <state line="24" column="54" selection-start="758" selection-end="758" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="21" selection-start="1736" selection-end="2274" vertical-scroll-proportion="-30.0" vertical-offset="15" max-vertical-offset="930">
+            <state line="33" column="20" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.41226575" vertical-offset="253" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
@@ -58,8 +58,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/community.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/modpack.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -278,16 +278,16 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/modpack.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="21" selection-start="1736" selection-end="2274" vertical-scroll-proportion="-30.0" vertical-offset="15" max-vertical-offset="930">
+        <state line="24" column="54" selection-start="758" selection-end="758" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modpack.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="717" selection-end="717" vertical-scroll-proportion="0.4855196" vertical-offset="45" max-vertical-offset="810">
+        <state line="33" column="20" selection-start="1423" selection-end="1423" vertical-scroll-proportion="0.41226575" vertical-offset="253" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
