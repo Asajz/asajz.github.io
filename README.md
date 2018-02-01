@@ -1,6 +1,4 @@
-Asajz Pack Github-Hosted Site
+Asajz Github-Hosted Site
 ==================
 
-The Asajz Pack Website
-
-Thanks to msysgit for the original code!
+The Asajz Website
