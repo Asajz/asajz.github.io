@@ -20,7 +20,7 @@ title: Asajz
         {% for post in site.posts %}
 		<div class="article">
 			<div class="postHeader">
-				<a class="postTitle" href="link">{{ post.title }}</a>
+				<a class="postTitle" href="{{ post.url }}">{{ post.title }}</a>
 				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%A, %B %-d %Y"}}</time>
 			</div>
 			{{ post.content }}
