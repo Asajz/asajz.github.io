@@ -3,8 +3,8 @@ title: Nested List
 ---
 
 *H
-	*H
-	*h
+  *H
+  *h
 *H[^1]
 
 ```java
