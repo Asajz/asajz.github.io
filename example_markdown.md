@@ -2,10 +2,10 @@
 title: Nested List
 ---
 
-*H
-  *H
-  *h
-*H[^1]
+* H
+  * H
+  * h
+* H[^1]
 
 ```java
 public static void main(String[] args)
