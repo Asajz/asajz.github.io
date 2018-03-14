@@ -14,4 +14,10 @@ public static void main(String[] args)
 }
 ```
 
+|Title|Title2|Title3|
+|---|:---:|---:|
+|Test|Text|Texts|
+|Hey|Yo|Hi|
+|Aloha|Adios|Bye|
+
 [^1]: Hey
