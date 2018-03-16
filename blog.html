@@ -1,36 +1,86 @@
 ---
 title: Blog Posts
 ---
-
 <!DOCTYPE html>
 <html>
-
-<head>
-	{% include header.html %}
-</head>
-
-<body class="homepage">
-
-    <div class="content">
-        <div class="header">
+   <head>
+      {% include header.html %}
+   </head>
+   <body class="homepage">
+      <div class="content">
+         <div class="header">
             {% include nav.html %}
             <div style="clear: both"></div>
-        </div>
-        <div class="articles" data-scroll-reveal="enter bottom move 100px over 0.5s after 0.1s">
-        {% for post in site.posts %}
-		<div class="article">
-			<div class="postHeader">
-				<a class="postTitle" href="{{ post.url }}">{{ post.title }}</a>
-				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%A, %B %-d, %Y"}}</time>
-			</div>
-			{{ post.content }}
-		</div>
-		<hr class="dayBreak">
-        {% endfor %}
-        </div>
-    </div>
-    <div class="copyright">Copyright © {{ site.time | date: "%Y" }}</div>
-
-</body>
-
-</html>
+         </div>
+         <div class="articles" data-scroll-reveal="enter bottom move 100px over 0.5s after 0.1s">
+            {% for post in site.posts %}
+            <div class="article">
+               <div class="postHeader">
+                  <a class="postTitle" href="{{ post.url }}">{{ post.title }}</a>
+                  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%A, %B %-d, %Y"}}</time>
+               </div>
+               {{ post.content }}
+            </div>
+            <hr class="dayBreak">
+            {% endfor %}
+         </div>
+         ---
+         title: Blog Posts
+         ---
+         <!DOCTYPE html>
+         <html>
+            <head>
+               {% include header.html %}
+            </head>
+            <body class="homepage">
+               <div class="content">
+                  <div class="header">
+                     {% include nav.html %}
+                     <div style="clear: both"></div>
+                  </div>
+                  <div class="articles" data-scroll-reveal="enter bottom move 100px over 0.5s after 0.1s">
+                     {% for post in site.posts %}
+                     <div class="article">
+                        <div class="postHeader">
+                           <a class="postTitle" href="{{ post.url }}">{{ post.title }}</a>
+                           <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%A, %B %-d, %Y"}}</time>
+                        </div>
+                        {{ post.content }}
+                     </div>
+                     <hr class="dayBreak">
+                     {% endfor %}
+                  </div>
+                  <!-- Pagination links -->
+                  <div class="pagination">
+                     {% if paginator.previous_page %}
+                     <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+                     {% else %}
+                     <span class="previous">Previous</span>
+                     {% endif %}
+                     <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+                     {% if paginator.next_page %}
+                     <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+                     {% else %}
+                     <span class="next">Next</span>
+                     {% endif %}
+                  </div>
+               </div>
+               <div class="copyright">Copyright © {{ site.time | date: "%Y" }}</div>
+               <!-- Pagination links -->
+               <div class="pagination">
+                  {% if paginator.previous_page %}
+                  <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+                  {% else %}
+                  <span class="previous">Previous</span>
+                  {% endif %}
+                  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+                  {% if paginator.next_page %}
+                  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+                  {% else %}
+                  <span class="next ">Next</span>
+                  {% endif %}
+               </div>
+      </div>
+      <div class="copyright">Copyright © {{ site.time | date: "%Y" }}</div>
+      </body>
+      </html>
