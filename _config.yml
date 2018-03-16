@@ -9,6 +9,9 @@ highlighter: rouge
 
 markdown: kramdown
 
+plugins:
+  - jekyll-paginate
+
 paginate: 10
 paginate_path: "/blog/page:num/"
 
