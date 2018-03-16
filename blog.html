@@ -24,6 +24,7 @@ title: Blog Posts
             <hr class="dayBreak">
             {% endfor %}
          </div>
+         {% if paginator.total_pages > 1 %}
          <!-- Pagination links -->
          <div class="pagination">
             {% if paginator.previous_page %}
@@ -38,6 +39,7 @@ title: Blog Posts
             <span class="next">Next</span>
             {% endif %}
          </div>
+         {% endif %}
       </div>
       <div class="copyright">Copyright © {{ site.time | date: "%Y" }}</div>
    </body>
